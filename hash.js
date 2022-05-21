@@ -5,6 +5,8 @@ while (! letter.includes(String.fromCharCode(x))) {
     x++;
 }
 
+letter = letter.split("");
+
 function hash(str) {
 	// convert string to array
 	str = str.split("");
@@ -33,7 +35,11 @@ function hash(str) {
 	}
 
 	// sum all the members of the array
-	str = eval(String(str).replaceAll(",", "+").replaceAll(" ", "+").replaceAll("-", ""));
+	sum = 0;
+	for (var i = 0; i < str.length; i++) {
+		sum += str[i];
+	}
+	str = sum;
 
 	// remove dots
 	str = String(str).replace(".", "");
