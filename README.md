@@ -13,7 +13,8 @@
 ;   : ;--'     ;   |.'   ;   |.'
 |   ,/         '---'     '---'
 '---'</pre>
-H11 is a Hashage programme
+<p>H11 is a Hashage programme</p>
+<p>You can also use it thanks to the <a href="https://github.com/augustin7698/Origine">Origine</a> library</p>
 <h2>How to use ?</h2>
 <p>
 &emsp;&emsp;- save the <code>hash.js</code> file.
