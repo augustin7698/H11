@@ -1,7 +1,7 @@
 x = 0;
-y = "";
+letter = "";
 while (! y.includes(String.fromCharCode(x))) {
-    y+= String.fromCharCode(x);
+    letter+= String.fromCharCode(x);
     x++;
 }
 
