@@ -1,6 +1,6 @@
 x = 0;
 letter = "";
-while (! y.includes(String.fromCharCode(x))) {
+while (! letter.includes(String.fromCharCode(x))) {
     letter+= String.fromCharCode(x);
     x++;
 }
