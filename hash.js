@@ -1,4 +1,4 @@
-function hash(string) {
+function H(string) {
 	let hash = 0;
 	for (let i = 0; i < string.length; i++) {
 		hash = (hash << 5) - hash + string.charCodeAt(i);
